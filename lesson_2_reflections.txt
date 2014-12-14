@@ -30,3 +30,7 @@ How do the diagrams help you visualize the branch structure?
 Well, diagrams looks like branch.
 It looks exactly like how it works.
 I don't know how else to answer this question.
+
+-What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+The new branch will contain the history of commits from both branches.
