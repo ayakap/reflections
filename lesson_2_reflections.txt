@@ -24,3 +24,9 @@ without messing with the version that's already working.
 For example, branches will be useful when I want to make
 a version in different language or experiment with a new feature
 while still having official working copy
+
+
+How do the diagrams help you visualize the branch structure?
+Well, diagrams looks like branch.
+It looks exactly like how it works.
+I don't know how else to answer this question.
