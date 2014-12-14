@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It pinpointed the differences between two files
+so it reduced the amount of data I have to check drastically.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If something goes wrong, I can just go back to the previous version that worked.
+If we don't have the previous version, I have to remember what I did previously,
+or even re-invent what I did before. This takes extra time and having older versions will save this time.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+Since I will be choosing when to save the work, each commit will be meaningful and will not be at random points
+where it won't make any sense (like when I was in the middle of typing a word)
+Also I will not be saving and wasting space or clogging the log by saving when I made no meaningful change
+Cons:
+If I forget to commit, then the computer will not automatically save the version so I have to remember each time.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+Because it is useful to do so when the files are related and have to work together in order to do something. 
+This may not happen very often when we are writing documents so probably not necessary in Google Docs but 
+it is common when programming, so Git uses this system
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log --stat
+use this to see the list of recent commits. scroll down with down arrow for more.
+
+git diff ID1 ID2
+use this to compare two versions. get the IDs of the files to compare from git log. 
+select id and right click to copy, select nothing and right click to paste. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If I break something, I can just go back to the previous version and un-break it.
+I can also compare the broken version with the one just before breaking and see what I did wrong.
+However, these strategies only work if I properly commit every time I make a meaningful change.
