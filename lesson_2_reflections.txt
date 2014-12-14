@@ -15,3 +15,12 @@ commit
 use git diff to compare working directory and staging area
 use git diff --staged to compare staging area and most recent commit
 use these two to see if that's really what i want
+
+
+-What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+Branches will be helpful whenever I want to make something new
+without messing with the version that's already working.
+For example, branches will be useful when I want to make
+a version in different language or experiment with a new feature
+while still having official working copy
