@@ -34,3 +34,11 @@ I don't know how else to answer this question.
 -What is the result of merging two branches together? 
 Why do we represent it in the diagram the way we do?
 The new branch will contain the history of commits from both branches.
+
+-What are the pros and cons of 
+Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves time and energy.
+However, conflicts are hard to fix automatically so we have to 
+resolve conflucts manually. Always merging manually will 
+give us more control, but it is tedious and 
+possibly more prone to human errors.
