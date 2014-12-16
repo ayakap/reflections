@@ -23,3 +23,7 @@ Branches are when works split within a repository.
 
 I have no idea. But I can compare my local copy with the remote 
 without internet if I have that.
+
+- How would you collaborate without using Git or GitHub? 
+  What would be easier, and what would be harder?
+It would be much harder to work on the same file at the same time
